@@ -1,0 +1,220 @@
+
+/*------------------------通用样式start------------------------*/
+body{
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+
+
+/*------------------------通用样式end------------------------*/
+
+
+
+/*------------------------头部start------------------------*/
+
+/**
+顶栏部分
+ */
+#myHeader{}
+#myHeader .top-bar{
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#myHeader .top-bar .container .row>div+div{
+    border-left: 1px solid #e0e0e0;
+}
+
+#myHeader .top-bar .container .row a{
+    position: relative;
+}
+
+#myHeader .top-bar .container .row a img{
+    width: 120px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#myHeader .top-bar .container .row a:hover img{
+    display: block;
+}
+
+/**
+导航栏部分
+ */
+#myHeader .my-navbar .container .navbar-nav>li>a{
+
+    height: 70px;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+#myHeader .my-navbar .container .navbar-nav{
+    margin-left: 50px;
+}
+
+#myHeader .my-navbar .container .navbar-nav>li>a:hover{
+    border-bottom: 2px solid purple;
+    color: purple;
+
+}
+
+#myHeader .my-navbar .container {
+    height: 90px;
+}
+
+/*------------------------头部end------------------------*/
+
+
+
+
+
+/*------------------------轮播图start------------------------*/
+#myLunbo{}
+
+#myLunbo .carousel-item{
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background-image: url("../images/slide_01_900x410.jpg");*/
+}
+
+
+
+#myLunbo .carousel-item img{
+    width: 100%;
+}
+
+@media screen and (min-width: 900px){
+    #myLunbo .carousel-item{
+        height: 410px;
+    }
+
+}
+
+
+
+
+/*------------------------轮播图end------------------------*/
+
+
+
+
+
+/*------------------------热门课程start------------------------*/
+
+
+
+
+
+
+/*------------------------热门课程end------------------------*/
+
+
+
+
+
+/*------------------------产品中心start------------------------*/
+#myProduct{
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+#myProduct .container >ul>li>a{
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+
+#myProduct .container >ul>li>a:hover{
+    /*border-bottom: 2px solid #8330F0;*/
+    color: #8330F0;
+
+}
+
+#myProduct .container >ul>li>a.active{
+    border-bottom: 2px solid #8330F0;
+    color: #8330F0;
+    background-color: transparent;
+}
+
+
+
+/*------------------------产品中心end------------------------*/
+
+
+
+
+/*------------------------关于我们start------------------------*/
+
+
+
+
+
+/*------------------------关于我们end------------------------*/
+
+
+
+
+
+
+/*------------------------友情链接start------------------------*/
+
+
+
+
+/*------------------------友情链接end------------------------*/
+
+
+
+
+
+/*------------------------尾部start------------------------*/
+#myFooter{
+    height: 200px;
+    background:url("../images/ft_bg.png") no-repeat center;
+    color:white;
+}
+
+
+.textLink ul>li>a{
+    color: white;
+}
+
+#myFooter .container .row{
+    height: 200px;
+    /*background-color: red;*/
+}
+
+/*------------------------尾部end------------------------*/
+
+
+
+
+
+
+
+
+
